@@ -1,0 +1,3426 @@
+[access_menu: TcxPropertiesStoreComponent]
+=
+Alignment="paLeft"
+AutoHotkeys="maAutomatic"
+AutoLineReduction="maAutomatic"
+AutoPopup="True"
+BiDiMode="bdLeftToRight"
+HelpContext=0
+Images=""
+Items=""
+MenuAnimation="[]"
+Name="access_menu"
+OwnerDraw="False"
+ParentBiDiMode="True"
+Tag=0
+TrackButton="tbRightButton"
+
+[catalog_menu: TcxPropertiesStoreComponent]
+=
+Alignment="paLeft"
+AutoHotkeys="maAutomatic"
+AutoLineReduction="maAutomatic"
+AutoPopup="True"
+BiDiMode="bdLeftToRight"
+HelpContext=0
+Images=""
+Items=""
+MenuAnimation="[]"
+Name="catalog_menu"
+OwnerDraw="False"
+ParentBiDiMode="True"
+Tag=0
+TrackButton="tbRightButton"
+
+[DBGrid2: TcxPropertiesStoreComponent]
+=
+Align="alClient"
+Anchors="[akLeft,akTop,akRight,akBottom]"
+BiDiMode="bdLeftToRight"
+BorderStyle="bsSingle"
+Color=16777215
+Ctl3D="True"
+Cursor=0
+DataSource="ACCESS_S"
+DefaultDrawing="True"
+DragCursor=-12
+DragKind="dkDrag"
+DragMode="dmManual"
+Enabled="True"
+FixedColor=-16777201
+Height=111
+HelpContext=0
+HelpKeyword=""
+HelpType="htContext"
+Hint=""
+ImeMode="imDontCare"
+ImeName=""
+Left=2
+Name="DBGrid2"
+Options="[dgTitles,dgIndicator,dgColumnResize,dgColLines,dgRowLines,dgTabs,dgConfirmDelete,dgCancelOnExit]"
+ParentBiDiMode="True"
+ParentColor="False"
+ParentCtl3D="True"
+ParentFont="False"
+ParentShowHint="True"
+PopupMenu="access_menu"
+ReadOnly="True"
+ShowHint="False"
+TabOrder=0
+TabStop="True"
+Tag=0
+Top=15
+Visible="True"
+Width=638
+
+[DBGrid2/Columns: TDBGridColumns]
+=
+
+[DBGrid2/Columns/0: TColumn]
+=
+Alignment="taLeftJustify"
+ButtonStyle="cbsAuto"
+Color=16777215
+DropDownRows=7
+Expanded="False"
+FieldName="NUMB"
+ImeMode="imDontCare"
+ImeName=""
+ReadOnly="True"
+Width=67
+Visible="True"
+
+[DBGrid2/Columns/0/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGrid2/Columns/0/PickList: TStringList]
+=
+
+[DBGrid2/Columns/0/Title: TColumnTitle]
+=
+Alignment="taLeftJustify"
+Caption="Номер"
+Color=-16777201
+
+[DBGrid2/Columns/0/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGrid2/Columns/1: TColumn]
+=
+Alignment="taLeftJustify"
+ButtonStyle="cbsAuto"
+Color=16777215
+DropDownRows=7
+Expanded="False"
+FieldName="B_DATE"
+ImeMode="imDontCare"
+ImeName=""
+ReadOnly="True"
+Width=109
+Visible="True"
+
+[DBGrid2/Columns/1/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGrid2/Columns/1/PickList: TStringList]
+=
+
+[DBGrid2/Columns/1/Title: TColumnTitle]
+=
+Alignment="taLeftJustify"
+Caption="Начало действия"
+Color=-16777201
+
+[DBGrid2/Columns/1/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGrid2/Columns/2: TColumn]
+=
+Alignment="taLeftJustify"
+ButtonStyle="cbsAuto"
+Color=16777215
+DropDownRows=7
+Expanded="False"
+FieldName="E_DATE"
+ImeMode="imDontCare"
+ImeName=""
+ReadOnly="True"
+Width=102
+Visible="True"
+
+[DBGrid2/Columns/2/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGrid2/Columns/2/PickList: TStringList]
+=
+
+[DBGrid2/Columns/2/Title: TColumnTitle]
+=
+Alignment="taLeftJustify"
+Caption="Дата закрытия"
+Color=-16777201
+
+[DBGrid2/Columns/2/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGrid2/Columns/3: TColumn]
+=
+Alignment="taLeftJustify"
+ButtonStyle="cbsAuto"
+Color=16777215
+DropDownRows=7
+Expanded="False"
+FieldName="S_TARGET"
+ImeMode="imDontCare"
+ImeName=""
+ReadOnly="True"
+Width=72
+Visible="True"
+
+[DBGrid2/Columns/3/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGrid2/Columns/3/PickList: TStringList]
+=
+
+[DBGrid2/Columns/3/Title: TColumnTitle]
+=
+Alignment="taLeftJustify"
+Caption="К кому"
+Color=-16777201
+
+[DBGrid2/Columns/3/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGrid2/Columns/4: TColumn]
+=
+Alignment="taLeftJustify"
+ButtonStyle="cbsAuto"
+Color=16777215
+DropDownRows=7
+Expanded="False"
+FieldName="S_CALLER"
+ImeMode="imDontCare"
+ImeName=""
+ReadOnly="True"
+Width=82
+Visible="True"
+
+[DBGrid2/Columns/4/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGrid2/Columns/4/PickList: TStringList]
+=
+
+[DBGrid2/Columns/4/Title: TColumnTitle]
+=
+Alignment="taLeftJustify"
+Caption="Кто заказал"
+Color=-16777201
+
+[DBGrid2/Columns/4/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGrid2/Columns/5: TColumn]
+=
+Alignment="taLeftJustify"
+ButtonStyle="cbsAuto"
+Color=16777215
+DropDownRows=7
+Expanded="False"
+FieldName="MOBILE"
+ImeMode="imDontCare"
+ImeName=""
+ReadOnly="True"
+Width=71
+Visible="True"
+
+[DBGrid2/Columns/5/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGrid2/Columns/5/PickList: TStringList]
+=
+
+[DBGrid2/Columns/5/Title: TColumnTitle]
+=
+Alignment="taLeftJustify"
+Caption="Транспорт"
+Color=-16777201
+
+[DBGrid2/Columns/5/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGrid2/Constraints: TSizeConstraints]
+=
+MaxHeight=0
+MaxWidth=0
+MinHeight=0
+MinWidth=0
+
+[DBGrid2/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGrid2/TitleFont: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1: TcxPropertiesStoreComponent]
+=
+Align="alClient"
+AllowedOperations="[alopInsertEh,alopUpdateEh,alopDeleteEh,alopAppendEh]"
+AllowedSelections="[gstRecordBookmarks,gstRectangle,gstColumns,gstAll]"
+Anchors="[akLeft,akTop,akRight,akBottom]"
+AutoFitColWidths="False"
+BiDiMode="bdLeftToRight"
+BorderStyle="bsSingle"
+Color=16777215
+Ctl3D="True"
+Cursor=0
+DataSource="perons_s"
+DefaultDrawing="True"
+DragCursor=-12
+DragKind="dkDrag"
+DragMode="dmManual"
+DrawMemoText="False"
+EditActions="[]"
+Enabled="True"
+EvenRowColor=16777215
+FixedColor=-16777201
+Flat="False"
+FooterColor=12632256
+FooterRowCount=0
+FrozenCols=0
+Height=288
+HelpContext=0
+HelpKeyword=""
+HelpType="htContext"
+Hint=""
+ImeMode="imDontCare"
+ImeName=""
+Left=2
+MinAutoFitWidth=0
+Name="DBGridEh1"
+OddRowColor=16777215
+Options="[dgTitles,dgIndicator,dgColumnResize,dgColLines,dgRowLines,dgTabs,dgConfirmDelete,dgCancelOnExit]"
+OptionsEh="[dghFixed3D,dghHighlightFocus,dghClearSelection,dghAutoSortMarking,dghIncSearch,dghPreferIncSearch,dghDialogFind]"
+ParentBiDiMode="True"
+ParentColor="False"
+ParentCtl3D="True"
+ParentFont="False"
+ParentShowHint="True"
+PopupMenu="person_menu"
+ReadOnly="True"
+RowHeight=0
+RowLines=0
+RowSizingAllowed="False"
+ShowHint="False"
+SortLocal="False"
+TabOrder=0
+TabStop="True"
+Tag=0
+TitleHeight=0
+TitleImages=""
+TitleLines=0
+Top=15
+UseMultiTitle="False"
+Visible="True"
+VTitleMargin=10
+Width=638
+
+[DBGridEh1/ColumnDefValues: TDBGridEhColumnDefValuesEh]
+=
+AlwaysShowEditButton="False"
+AutoDropDown="False"
+DblClickNextVal="False"
+DropDownShowTitles="False"
+DropDownSizing="False"
+EndEllipsis="False"
+HighlightRequired="False"
+Layout="tlTop"
+ToolTips="False"
+
+[DBGridEh1/ColumnDefValues/Footer: TColumnFooterDefValuesEh]
+=
+ToolTips="False"
+
+[DBGridEh1/ColumnDefValues/Title: TColumnTitleDefValuesEh]
+=
+Alignment="taLeftJustify"
+Color=-16777201
+EndEllipsis="False"
+Orientation="tohHorizontal"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns: TDBGridColumnsEh]
+=
+
+[DBGridEh1/Columns/0: TDBGridColumnEh]
+=
+Alignment="taLeftJustify"
+AlwaysShowEditButton="False"
+AutoDropDown="False"
+AutoFitColWidth="True"
+BiDiMode="bdLeftToRight"
+ButtonStyle="cbsAuto"
+Checkboxes="False"
+Color=16777215
+DblClickNextVal="False"
+DisplayFormat=""
+DropDownRows=7
+DropDownShowTitles="False"
+DropDownSizing="False"
+DropDownWidth=0
+EditMask=""
+EndEllipsis="False"
+FieldName="FAMILY"
+HideDuplicates="False"
+HighlightRequired="False"
+ImeMode="imDontCare"
+ImeName=""
+Increment=1
+Layout="tlTop"
+LookupDisplayFields=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ReadOnly="True"
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=95
+WordWrap="False"
+
+[DBGridEh1/Columns/0/DropDownBox: TColumnDropDownBoxEh]
+=
+AutoFitColWidths="True"
+Options="[dlgColLinesEh]"
+UseMultiTitle="False"
+
+[DBGridEh1/Columns/0/DropDownBox/ColumnDefValues: TDBLookupGridColumnDefValuesEh]
+=
+EndEllipsis="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/0/DropDownBox/ColumnDefValues/Title: TColumnTitleDefValuesEh]
+=
+Alignment="taLeftJustify"
+Color=-16777201
+EndEllipsis="False"
+Orientation="tohHorizontal"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/0/DropDownBox/Columns: TDBGridColumnsEh]
+=
+
+[DBGridEh1/Columns/0/DropDownBox/Columns/0: TDBLookupGridColumnEh]
+=
+Alignment="taLeftJustify"
+AutoFitColWidth="True"
+Checkboxes="False"
+Color=-16777211
+EndEllipsis="False"
+FieldName=""
+ImeMode="imDontCare"
+ImeName=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=64
+
+[DBGridEh1/Columns/0/DropDownBox/Columns/0/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/0/DropDownBox/Columns/0/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/0/DropDownBox/Columns/0/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/0/DropDownBox/Columns/0/SpecCell: TGridColumnSpecCellEh]
+=
+Text=""
+Color=-16777211
+
+[DBGridEh1/Columns/0/DropDownBox/Columns/0/SpecCell/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/0/DropDownBox/Columns/0/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption=""
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/0/DropDownBox/Columns/0/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/0/DropDownSpecRow: TSpecRowEh]
+=
+CellsText=""
+Color=0
+ShortCut=32814
+ShowIfNotInKeyList="True"
+Visible="False"
+
+[DBGridEh1/Columns/0/DropDownSpecRow/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/0/EditButtons: TEditButtonsEh]
+=
+
+[DBGridEh1/Columns/0/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/0/Footer: TColumnFooterEh]
+=
+Alignment="taLeftJustify"
+Color=12632256
+DisplayFormat=""
+EndEllipsis="False"
+FieldName=""
+ToolTips="False"
+Value=""
+ValueType="fvtNon"
+WordWrap="False"
+
+[DBGridEh1/Columns/0/Footer/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/0/Footers: TColumnFootersEh]
+=
+
+[DBGridEh1/Columns/0/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/0/MRUList: TMRUListEh]
+=
+AutoAdd="True"
+Active="False"
+CaseSensitive="False"
+Limit=100
+Rows=7
+
+[DBGridEh1/Columns/0/MRUList/Items: TStringList]
+=
+
+[DBGridEh1/Columns/0/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/0/STFilter: TSTColumnFilterEh]
+=
+DataField=""
+KeyField=""
+ListField=""
+Visible="True"
+
+[DBGridEh1/Columns/0/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption="Фамилия"
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/0/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/1: TDBGridColumnEh]
+=
+Alignment="taLeftJustify"
+AlwaysShowEditButton="False"
+AutoDropDown="False"
+AutoFitColWidth="True"
+BiDiMode="bdLeftToRight"
+ButtonStyle="cbsAuto"
+Checkboxes="False"
+Color=16777215
+DblClickNextVal="False"
+DisplayFormat=""
+DropDownRows=7
+DropDownShowTitles="False"
+DropDownSizing="False"
+DropDownWidth=0
+EditMask=""
+EndEllipsis="False"
+FieldName="F_NAME"
+HideDuplicates="False"
+HighlightRequired="False"
+ImeMode="imDontCare"
+ImeName=""
+Increment=1
+Layout="tlTop"
+LookupDisplayFields=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ReadOnly="True"
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=82
+WordWrap="False"
+
+[DBGridEh1/Columns/1/DropDownBox: TColumnDropDownBoxEh]
+=
+AutoFitColWidths="True"
+Options="[dlgColLinesEh]"
+UseMultiTitle="False"
+
+[DBGridEh1/Columns/1/DropDownBox/ColumnDefValues: TDBLookupGridColumnDefValuesEh]
+=
+EndEllipsis="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/1/DropDownBox/ColumnDefValues/Title: TColumnTitleDefValuesEh]
+=
+Alignment="taLeftJustify"
+Color=-16777201
+EndEllipsis="False"
+Orientation="tohHorizontal"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/1/DropDownBox/Columns: TDBGridColumnsEh]
+=
+
+[DBGridEh1/Columns/1/DropDownBox/Columns/0: TDBLookupGridColumnEh]
+=
+Alignment="taLeftJustify"
+AutoFitColWidth="True"
+Checkboxes="False"
+Color=-16777211
+EndEllipsis="False"
+FieldName=""
+ImeMode="imDontCare"
+ImeName=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=64
+
+[DBGridEh1/Columns/1/DropDownBox/Columns/0/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/1/DropDownBox/Columns/0/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/1/DropDownBox/Columns/0/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/1/DropDownBox/Columns/0/SpecCell: TGridColumnSpecCellEh]
+=
+Text=""
+Color=-16777211
+
+[DBGridEh1/Columns/1/DropDownBox/Columns/0/SpecCell/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/1/DropDownBox/Columns/0/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption=""
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/1/DropDownBox/Columns/0/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/1/DropDownSpecRow: TSpecRowEh]
+=
+CellsText=""
+Color=0
+ShortCut=32814
+ShowIfNotInKeyList="True"
+Visible="False"
+
+[DBGridEh1/Columns/1/DropDownSpecRow/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/1/EditButtons: TEditButtonsEh]
+=
+
+[DBGridEh1/Columns/1/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/1/Footer: TColumnFooterEh]
+=
+Alignment="taLeftJustify"
+Color=12632256
+DisplayFormat=""
+EndEllipsis="False"
+FieldName=""
+ToolTips="False"
+Value=""
+ValueType="fvtNon"
+WordWrap="False"
+
+[DBGridEh1/Columns/1/Footer/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/1/Footers: TColumnFootersEh]
+=
+
+[DBGridEh1/Columns/1/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/1/MRUList: TMRUListEh]
+=
+AutoAdd="True"
+Active="False"
+CaseSensitive="False"
+Limit=100
+Rows=7
+
+[DBGridEh1/Columns/1/MRUList/Items: TStringList]
+=
+
+[DBGridEh1/Columns/1/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/1/STFilter: TSTColumnFilterEh]
+=
+DataField=""
+KeyField=""
+ListField=""
+Visible="True"
+
+[DBGridEh1/Columns/1/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption="Имя"
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/1/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/2: TDBGridColumnEh]
+=
+Alignment="taLeftJustify"
+AlwaysShowEditButton="False"
+AutoDropDown="False"
+AutoFitColWidth="True"
+BiDiMode="bdLeftToRight"
+ButtonStyle="cbsAuto"
+Checkboxes="False"
+Color=16777215
+DblClickNextVal="False"
+DisplayFormat=""
+DropDownRows=7
+DropDownShowTitles="False"
+DropDownSizing="False"
+DropDownWidth=0
+EditMask=""
+EndEllipsis="False"
+FieldName="L_NAME"
+HideDuplicates="False"
+HighlightRequired="False"
+ImeMode="imDontCare"
+ImeName=""
+Increment=1
+Layout="tlTop"
+LookupDisplayFields=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ReadOnly="True"
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=67
+WordWrap="False"
+
+[DBGridEh1/Columns/2/DropDownBox: TColumnDropDownBoxEh]
+=
+AutoFitColWidths="True"
+Options="[dlgColLinesEh]"
+UseMultiTitle="False"
+
+[DBGridEh1/Columns/2/DropDownBox/ColumnDefValues: TDBLookupGridColumnDefValuesEh]
+=
+EndEllipsis="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/2/DropDownBox/ColumnDefValues/Title: TColumnTitleDefValuesEh]
+=
+Alignment="taLeftJustify"
+Color=-16777201
+EndEllipsis="False"
+Orientation="tohHorizontal"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/2/DropDownBox/Columns: TDBGridColumnsEh]
+=
+
+[DBGridEh1/Columns/2/DropDownBox/Columns/0: TDBLookupGridColumnEh]
+=
+Alignment="taLeftJustify"
+AutoFitColWidth="True"
+Checkboxes="False"
+Color=-16777211
+EndEllipsis="False"
+FieldName=""
+ImeMode="imDontCare"
+ImeName=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=64
+
+[DBGridEh1/Columns/2/DropDownBox/Columns/0/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/2/DropDownBox/Columns/0/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/2/DropDownBox/Columns/0/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/2/DropDownBox/Columns/0/SpecCell: TGridColumnSpecCellEh]
+=
+Text=""
+Color=-16777211
+
+[DBGridEh1/Columns/2/DropDownBox/Columns/0/SpecCell/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/2/DropDownBox/Columns/0/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption=""
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/2/DropDownBox/Columns/0/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/2/DropDownSpecRow: TSpecRowEh]
+=
+CellsText=""
+Color=0
+ShortCut=32814
+ShowIfNotInKeyList="True"
+Visible="False"
+
+[DBGridEh1/Columns/2/DropDownSpecRow/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/2/EditButtons: TEditButtonsEh]
+=
+
+[DBGridEh1/Columns/2/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/2/Footer: TColumnFooterEh]
+=
+Alignment="taLeftJustify"
+Color=12632256
+DisplayFormat=""
+EndEllipsis="False"
+FieldName=""
+ToolTips="False"
+Value=""
+ValueType="fvtNon"
+WordWrap="False"
+
+[DBGridEh1/Columns/2/Footer/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/2/Footers: TColumnFootersEh]
+=
+
+[DBGridEh1/Columns/2/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/2/MRUList: TMRUListEh]
+=
+AutoAdd="True"
+Active="False"
+CaseSensitive="False"
+Limit=100
+Rows=7
+
+[DBGridEh1/Columns/2/MRUList/Items: TStringList]
+=
+
+[DBGridEh1/Columns/2/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/2/STFilter: TSTColumnFilterEh]
+=
+DataField=""
+KeyField=""
+ListField=""
+Visible="True"
+
+[DBGridEh1/Columns/2/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption="Отчество"
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/2/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/3: TDBGridColumnEh]
+=
+Alignment="taLeftJustify"
+AlwaysShowEditButton="False"
+AutoDropDown="False"
+AutoFitColWidth="True"
+BiDiMode="bdLeftToRight"
+ButtonStyle="cbsAuto"
+Checkboxes="False"
+Color=16777215
+DblClickNextVal="False"
+DisplayFormat=""
+DropDownRows=7
+DropDownShowTitles="False"
+DropDownSizing="False"
+DropDownWidth=0
+EditMask=""
+EndEllipsis="False"
+FieldName="P_SERIAL"
+HideDuplicates="False"
+HighlightRequired="False"
+ImeMode="imDontCare"
+ImeName=""
+Increment=1
+Layout="tlTop"
+LookupDisplayFields=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ReadOnly="True"
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=63
+WordWrap="False"
+
+[DBGridEh1/Columns/3/DropDownBox: TColumnDropDownBoxEh]
+=
+AutoFitColWidths="True"
+Options="[dlgColLinesEh]"
+UseMultiTitle="False"
+
+[DBGridEh1/Columns/3/DropDownBox/ColumnDefValues: TDBLookupGridColumnDefValuesEh]
+=
+EndEllipsis="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/3/DropDownBox/ColumnDefValues/Title: TColumnTitleDefValuesEh]
+=
+Alignment="taLeftJustify"
+Color=-16777201
+EndEllipsis="False"
+Orientation="tohHorizontal"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/3/DropDownBox/Columns: TDBGridColumnsEh]
+=
+
+[DBGridEh1/Columns/3/DropDownBox/Columns/0: TDBLookupGridColumnEh]
+=
+Alignment="taLeftJustify"
+AutoFitColWidth="True"
+Checkboxes="False"
+Color=-16777211
+EndEllipsis="False"
+FieldName=""
+ImeMode="imDontCare"
+ImeName=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=64
+
+[DBGridEh1/Columns/3/DropDownBox/Columns/0/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/3/DropDownBox/Columns/0/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/3/DropDownBox/Columns/0/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/3/DropDownBox/Columns/0/SpecCell: TGridColumnSpecCellEh]
+=
+Text=""
+Color=-16777211
+
+[DBGridEh1/Columns/3/DropDownBox/Columns/0/SpecCell/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/3/DropDownBox/Columns/0/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption=""
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/3/DropDownBox/Columns/0/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/3/DropDownSpecRow: TSpecRowEh]
+=
+CellsText=""
+Color=0
+ShortCut=32814
+ShowIfNotInKeyList="True"
+Visible="False"
+
+[DBGridEh1/Columns/3/DropDownSpecRow/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/3/EditButtons: TEditButtonsEh]
+=
+
+[DBGridEh1/Columns/3/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/3/Footer: TColumnFooterEh]
+=
+Alignment="taLeftJustify"
+Color=12632256
+DisplayFormat=""
+EndEllipsis="False"
+FieldName=""
+ToolTips="False"
+Value=""
+ValueType="fvtNon"
+WordWrap="False"
+
+[DBGridEh1/Columns/3/Footer/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/3/Footers: TColumnFootersEh]
+=
+
+[DBGridEh1/Columns/3/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/3/MRUList: TMRUListEh]
+=
+AutoAdd="True"
+Active="False"
+CaseSensitive="False"
+Limit=100
+Rows=7
+
+[DBGridEh1/Columns/3/MRUList/Items: TStringList]
+=
+
+[DBGridEh1/Columns/3/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/3/STFilter: TSTColumnFilterEh]
+=
+DataField=""
+KeyField=""
+ListField=""
+Visible="True"
+
+[DBGridEh1/Columns/3/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption="Паспорт: серия"
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/3/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/4: TDBGridColumnEh]
+=
+Alignment="taLeftJustify"
+AlwaysShowEditButton="False"
+AutoDropDown="False"
+AutoFitColWidth="True"
+BiDiMode="bdLeftToRight"
+ButtonStyle="cbsAuto"
+Checkboxes="False"
+Color=16777215
+DblClickNextVal="False"
+DisplayFormat=""
+DropDownRows=7
+DropDownShowTitles="False"
+DropDownSizing="False"
+DropDownWidth=0
+EditMask=""
+EndEllipsis="False"
+FieldName="P_NUMBER"
+HideDuplicates="False"
+HighlightRequired="False"
+ImeMode="imDontCare"
+ImeName=""
+Increment=1
+Layout="tlTop"
+LookupDisplayFields=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ReadOnly="True"
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=60
+WordWrap="False"
+
+[DBGridEh1/Columns/4/DropDownBox: TColumnDropDownBoxEh]
+=
+AutoFitColWidths="True"
+Options="[dlgColLinesEh]"
+UseMultiTitle="False"
+
+[DBGridEh1/Columns/4/DropDownBox/ColumnDefValues: TDBLookupGridColumnDefValuesEh]
+=
+EndEllipsis="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/4/DropDownBox/ColumnDefValues/Title: TColumnTitleDefValuesEh]
+=
+Alignment="taLeftJustify"
+Color=-16777201
+EndEllipsis="False"
+Orientation="tohHorizontal"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/4/DropDownBox/Columns: TDBGridColumnsEh]
+=
+
+[DBGridEh1/Columns/4/DropDownBox/Columns/0: TDBLookupGridColumnEh]
+=
+Alignment="taLeftJustify"
+AutoFitColWidth="True"
+Checkboxes="False"
+Color=-16777211
+EndEllipsis="False"
+FieldName=""
+ImeMode="imDontCare"
+ImeName=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=64
+
+[DBGridEh1/Columns/4/DropDownBox/Columns/0/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/4/DropDownBox/Columns/0/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/4/DropDownBox/Columns/0/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/4/DropDownBox/Columns/0/SpecCell: TGridColumnSpecCellEh]
+=
+Text=""
+Color=-16777211
+
+[DBGridEh1/Columns/4/DropDownBox/Columns/0/SpecCell/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/4/DropDownBox/Columns/0/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption=""
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/4/DropDownBox/Columns/0/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/4/DropDownSpecRow: TSpecRowEh]
+=
+CellsText=""
+Color=0
+ShortCut=32814
+ShowIfNotInKeyList="True"
+Visible="False"
+
+[DBGridEh1/Columns/4/DropDownSpecRow/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/4/EditButtons: TEditButtonsEh]
+=
+
+[DBGridEh1/Columns/4/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/4/Footer: TColumnFooterEh]
+=
+Alignment="taLeftJustify"
+Color=12632256
+DisplayFormat=""
+EndEllipsis="False"
+FieldName=""
+ToolTips="False"
+Value=""
+ValueType="fvtNon"
+WordWrap="False"
+
+[DBGridEh1/Columns/4/Footer/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/4/Footers: TColumnFootersEh]
+=
+
+[DBGridEh1/Columns/4/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/4/MRUList: TMRUListEh]
+=
+AutoAdd="True"
+Active="False"
+CaseSensitive="False"
+Limit=100
+Rows=7
+
+[DBGridEh1/Columns/4/MRUList/Items: TStringList]
+=
+
+[DBGridEh1/Columns/4/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/4/STFilter: TSTColumnFilterEh]
+=
+DataField=""
+KeyField=""
+ListField=""
+Visible="True"
+
+[DBGridEh1/Columns/4/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption="Паспорт: номер"
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/4/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/5: TDBGridColumnEh]
+=
+Alignment="taLeftJustify"
+AlwaysShowEditButton="False"
+AutoDropDown="False"
+AutoFitColWidth="True"
+BiDiMode="bdLeftToRight"
+ButtonStyle="cbsAuto"
+Checkboxes="False"
+Color=16777215
+DblClickNextVal="False"
+DisplayFormat=""
+DropDownRows=7
+DropDownShowTitles="False"
+DropDownSizing="False"
+DropDownWidth=0
+EditMask=""
+EndEllipsis="False"
+FieldName="ORG"
+HideDuplicates="False"
+HighlightRequired="False"
+ImeMode="imDontCare"
+ImeName=""
+Increment=1
+Layout="tlTop"
+LookupDisplayFields=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ReadOnly="True"
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=82
+WordWrap="False"
+
+[DBGridEh1/Columns/5/DropDownBox: TColumnDropDownBoxEh]
+=
+AutoFitColWidths="True"
+Options="[dlgColLinesEh]"
+UseMultiTitle="False"
+
+[DBGridEh1/Columns/5/DropDownBox/ColumnDefValues: TDBLookupGridColumnDefValuesEh]
+=
+EndEllipsis="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/5/DropDownBox/ColumnDefValues/Title: TColumnTitleDefValuesEh]
+=
+Alignment="taLeftJustify"
+Color=-16777201
+EndEllipsis="False"
+Orientation="tohHorizontal"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/5/DropDownBox/Columns: TDBGridColumnsEh]
+=
+
+[DBGridEh1/Columns/5/DropDownBox/Columns/0: TDBLookupGridColumnEh]
+=
+Alignment="taLeftJustify"
+AutoFitColWidth="True"
+Checkboxes="False"
+Color=-16777211
+EndEllipsis="False"
+FieldName=""
+ImeMode="imDontCare"
+ImeName=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=64
+
+[DBGridEh1/Columns/5/DropDownBox/Columns/0/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/5/DropDownBox/Columns/0/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/5/DropDownBox/Columns/0/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/5/DropDownBox/Columns/0/SpecCell: TGridColumnSpecCellEh]
+=
+Text=""
+Color=-16777211
+
+[DBGridEh1/Columns/5/DropDownBox/Columns/0/SpecCell/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/5/DropDownBox/Columns/0/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption=""
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/5/DropDownBox/Columns/0/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/5/DropDownSpecRow: TSpecRowEh]
+=
+CellsText=""
+Color=0
+ShortCut=32814
+ShowIfNotInKeyList="True"
+Visible="False"
+
+[DBGridEh1/Columns/5/DropDownSpecRow/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/5/EditButtons: TEditButtonsEh]
+=
+
+[DBGridEh1/Columns/5/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/5/Footer: TColumnFooterEh]
+=
+Alignment="taLeftJustify"
+Color=12632256
+DisplayFormat=""
+EndEllipsis="False"
+FieldName=""
+ToolTips="False"
+Value=""
+ValueType="fvtNon"
+WordWrap="False"
+
+[DBGridEh1/Columns/5/Footer/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/5/Footers: TColumnFootersEh]
+=
+
+[DBGridEh1/Columns/5/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/5/MRUList: TMRUListEh]
+=
+AutoAdd="True"
+Active="False"
+CaseSensitive="False"
+Limit=100
+Rows=7
+
+[DBGridEh1/Columns/5/MRUList/Items: TStringList]
+=
+
+[DBGridEh1/Columns/5/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/5/STFilter: TSTColumnFilterEh]
+=
+DataField=""
+KeyField=""
+ListField=""
+Visible="True"
+
+[DBGridEh1/Columns/5/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption="Организация"
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/5/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/6: TDBGridColumnEh]
+=
+Alignment="taLeftJustify"
+AlwaysShowEditButton="False"
+AutoDropDown="False"
+AutoFitColWidth="True"
+BiDiMode="bdLeftToRight"
+ButtonStyle="cbsAuto"
+Checkboxes="False"
+Color=16777215
+DblClickNextVal="False"
+DisplayFormat=""
+DropDownRows=7
+DropDownShowTitles="False"
+DropDownSizing="False"
+DropDownWidth=0
+EditMask=""
+EndEllipsis="False"
+FieldName="BIRTH_DATE"
+HideDuplicates="False"
+HighlightRequired="False"
+ImeMode="imDontCare"
+ImeName=""
+Increment=1
+Layout="tlTop"
+LookupDisplayFields=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ReadOnly="True"
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=94
+WordWrap="False"
+
+[DBGridEh1/Columns/6/DropDownBox: TColumnDropDownBoxEh]
+=
+AutoFitColWidths="True"
+Options="[dlgColLinesEh]"
+UseMultiTitle="False"
+
+[DBGridEh1/Columns/6/DropDownBox/ColumnDefValues: TDBLookupGridColumnDefValuesEh]
+=
+EndEllipsis="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/6/DropDownBox/ColumnDefValues/Title: TColumnTitleDefValuesEh]
+=
+Alignment="taLeftJustify"
+Color=-16777201
+EndEllipsis="False"
+Orientation="tohHorizontal"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/6/DropDownBox/Columns: TDBGridColumnsEh]
+=
+
+[DBGridEh1/Columns/6/DropDownBox/Columns/0: TDBLookupGridColumnEh]
+=
+Alignment="taLeftJustify"
+AutoFitColWidth="True"
+Checkboxes="False"
+Color=-16777211
+EndEllipsis="False"
+FieldName=""
+ImeMode="imDontCare"
+ImeName=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=64
+
+[DBGridEh1/Columns/6/DropDownBox/Columns/0/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/6/DropDownBox/Columns/0/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/6/DropDownBox/Columns/0/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/6/DropDownBox/Columns/0/SpecCell: TGridColumnSpecCellEh]
+=
+Text=""
+Color=-16777211
+
+[DBGridEh1/Columns/6/DropDownBox/Columns/0/SpecCell/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/6/DropDownBox/Columns/0/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption=""
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/6/DropDownBox/Columns/0/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/6/DropDownSpecRow: TSpecRowEh]
+=
+CellsText=""
+Color=0
+ShortCut=32814
+ShowIfNotInKeyList="True"
+Visible="False"
+
+[DBGridEh1/Columns/6/DropDownSpecRow/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/6/EditButtons: TEditButtonsEh]
+=
+
+[DBGridEh1/Columns/6/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/6/Footer: TColumnFooterEh]
+=
+Alignment="taLeftJustify"
+Color=12632256
+DisplayFormat=""
+EndEllipsis="False"
+FieldName=""
+ToolTips="False"
+Value=""
+ValueType="fvtNon"
+WordWrap="False"
+
+[DBGridEh1/Columns/6/Footer/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/6/Footers: TColumnFootersEh]
+=
+
+[DBGridEh1/Columns/6/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/6/MRUList: TMRUListEh]
+=
+AutoAdd="True"
+Active="False"
+CaseSensitive="False"
+Limit=100
+Rows=7
+
+[DBGridEh1/Columns/6/MRUList/Items: TStringList]
+=
+
+[DBGridEh1/Columns/6/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/6/STFilter: TSTColumnFilterEh]
+=
+DataField=""
+KeyField=""
+ListField=""
+Visible="True"
+
+[DBGridEh1/Columns/6/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption="Дата рождения"
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/6/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/7: TDBGridColumnEh]
+=
+Alignment="taLeftJustify"
+AlwaysShowEditButton="False"
+AutoDropDown="False"
+AutoFitColWidth="True"
+BiDiMode="bdLeftToRight"
+ButtonStyle="cbsAuto"
+Checkboxes="False"
+Color=16777215
+DblClickNextVal="False"
+DisplayFormat=""
+DropDownRows=7
+DropDownShowTitles="False"
+DropDownSizing="False"
+DropDownWidth=0
+EditMask=""
+EndEllipsis="False"
+FieldName="PROFF"
+HideDuplicates="False"
+HighlightRequired="False"
+ImeMode="imDontCare"
+ImeName=""
+Increment=1
+Layout="tlTop"
+LookupDisplayFields=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ReadOnly="True"
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=146
+WordWrap="False"
+
+[DBGridEh1/Columns/7/DropDownBox: TColumnDropDownBoxEh]
+=
+AutoFitColWidths="True"
+Options="[dlgColLinesEh]"
+UseMultiTitle="False"
+
+[DBGridEh1/Columns/7/DropDownBox/ColumnDefValues: TDBLookupGridColumnDefValuesEh]
+=
+EndEllipsis="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/7/DropDownBox/ColumnDefValues/Title: TColumnTitleDefValuesEh]
+=
+Alignment="taLeftJustify"
+Color=-16777201
+EndEllipsis="False"
+Orientation="tohHorizontal"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/7/DropDownBox/Columns: TDBGridColumnsEh]
+=
+
+[DBGridEh1/Columns/7/DropDownBox/Columns/0: TDBLookupGridColumnEh]
+=
+Alignment="taLeftJustify"
+AutoFitColWidth="True"
+Checkboxes="False"
+Color=-16777211
+EndEllipsis="False"
+FieldName=""
+ImeMode="imDontCare"
+ImeName=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=64
+
+[DBGridEh1/Columns/7/DropDownBox/Columns/0/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/7/DropDownBox/Columns/0/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/7/DropDownBox/Columns/0/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/7/DropDownBox/Columns/0/SpecCell: TGridColumnSpecCellEh]
+=
+Text=""
+Color=-16777211
+
+[DBGridEh1/Columns/7/DropDownBox/Columns/0/SpecCell/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/7/DropDownBox/Columns/0/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption=""
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/7/DropDownBox/Columns/0/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/7/DropDownSpecRow: TSpecRowEh]
+=
+CellsText=""
+Color=0
+ShortCut=32814
+ShowIfNotInKeyList="True"
+Visible="False"
+
+[DBGridEh1/Columns/7/DropDownSpecRow/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/7/EditButtons: TEditButtonsEh]
+=
+
+[DBGridEh1/Columns/7/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/7/Footer: TColumnFooterEh]
+=
+Alignment="taLeftJustify"
+Color=12632256
+DisplayFormat=""
+EndEllipsis="False"
+FieldName=""
+ToolTips="False"
+Value=""
+ValueType="fvtNon"
+WordWrap="False"
+
+[DBGridEh1/Columns/7/Footer/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/7/Footers: TColumnFootersEh]
+=
+
+[DBGridEh1/Columns/7/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/7/MRUList: TMRUListEh]
+=
+AutoAdd="True"
+Active="False"
+CaseSensitive="False"
+Limit=100
+Rows=7
+
+[DBGridEh1/Columns/7/MRUList/Items: TStringList]
+=
+
+[DBGridEh1/Columns/7/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/7/STFilter: TSTColumnFilterEh]
+=
+DataField=""
+KeyField=""
+ListField=""
+Visible="True"
+
+[DBGridEh1/Columns/7/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption="Должность"
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/7/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/8: TDBGridColumnEh]
+=
+Alignment="taLeftJustify"
+AlwaysShowEditButton="False"
+AutoDropDown="False"
+AutoFitColWidth="True"
+BiDiMode="bdLeftToRight"
+ButtonStyle="cbsAuto"
+Checkboxes="False"
+Color=16777215
+DblClickNextVal="False"
+DisplayFormat=""
+DropDownRows=7
+DropDownShowTitles="False"
+DropDownSizing="False"
+DropDownWidth=0
+EditMask=""
+EndEllipsis="False"
+FieldName="ADDR"
+HideDuplicates="False"
+HighlightRequired="False"
+ImeMode="imDontCare"
+ImeName=""
+Increment=1
+Layout="tlTop"
+LookupDisplayFields=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ReadOnly="True"
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=108
+WordWrap="False"
+
+[DBGridEh1/Columns/8/DropDownBox: TColumnDropDownBoxEh]
+=
+AutoFitColWidths="True"
+Options="[dlgColLinesEh]"
+UseMultiTitle="False"
+
+[DBGridEh1/Columns/8/DropDownBox/ColumnDefValues: TDBLookupGridColumnDefValuesEh]
+=
+EndEllipsis="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/8/DropDownBox/ColumnDefValues/Title: TColumnTitleDefValuesEh]
+=
+Alignment="taLeftJustify"
+Color=-16777201
+EndEllipsis="False"
+Orientation="tohHorizontal"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/8/DropDownBox/Columns: TDBGridColumnsEh]
+=
+
+[DBGridEh1/Columns/8/DropDownBox/Columns/0: TDBLookupGridColumnEh]
+=
+Alignment="taLeftJustify"
+AutoFitColWidth="True"
+Checkboxes="False"
+Color=-16777211
+EndEllipsis="False"
+FieldName=""
+ImeMode="imDontCare"
+ImeName=""
+MaxWidth=0
+MinWidth=0
+NotInKeyListIndex=-1
+ShowImageAndText="False"
+Tag=0
+ToolTips="False"
+Visible="True"
+Width=64
+
+[DBGridEh1/Columns/8/DropDownBox/Columns/0/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/8/DropDownBox/Columns/0/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/8/DropDownBox/Columns/0/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/8/DropDownBox/Columns/0/SpecCell: TGridColumnSpecCellEh]
+=
+Text=""
+Color=-16777211
+
+[DBGridEh1/Columns/8/DropDownBox/Columns/0/SpecCell/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/8/DropDownBox/Columns/0/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption=""
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/8/DropDownBox/Columns/0/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/8/DropDownSpecRow: TSpecRowEh]
+=
+CellsText=""
+Color=0
+ShortCut=32814
+ShowIfNotInKeyList="True"
+Visible="False"
+
+[DBGridEh1/Columns/8/DropDownSpecRow/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/8/EditButtons: TEditButtonsEh]
+=
+
+[DBGridEh1/Columns/8/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/Columns/8/Footer: TColumnFooterEh]
+=
+Alignment="taLeftJustify"
+Color=12632256
+DisplayFormat=""
+EndEllipsis="False"
+FieldName=""
+ToolTips="False"
+Value=""
+ValueType="fvtNon"
+WordWrap="False"
+
+[DBGridEh1/Columns/8/Footer/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Columns/8/Footers: TColumnFootersEh]
+=
+
+[DBGridEh1/Columns/8/KeyList: TStringList]
+=
+
+[DBGridEh1/Columns/8/MRUList: TMRUListEh]
+=
+AutoAdd="True"
+Active="False"
+CaseSensitive="False"
+Limit=100
+Rows=7
+
+[DBGridEh1/Columns/8/MRUList/Items: TStringList]
+=
+
+[DBGridEh1/Columns/8/PickList: TStringList]
+=
+
+[DBGridEh1/Columns/8/STFilter: TSTColumnFilterEh]
+=
+DataField=""
+KeyField=""
+ListField=""
+Visible="True"
+
+[DBGridEh1/Columns/8/Title: TColumnTitleEh]
+=
+Alignment="taLeftJustify"
+Caption="Адрес"
+Color=-16777201
+EndEllipsis="False"
+Hint=""
+ImageIndex=-1
+Orientation="tohHorizontal"
+SortIndex=0
+SortMarker="smNoneEh"
+TitleButton="False"
+ToolTips="False"
+
+[DBGridEh1/Columns/8/Title/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/Constraints: TSizeConstraints]
+=
+MaxHeight=0
+MaxWidth=0
+MinHeight=0
+MinWidth=0
+
+[DBGridEh1/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[DBGridEh1/FooterFont: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/HorzScrollBar: TDBGridEhScrollBar]
+=
+Tracking="False"
+Visible="True"
+
+[DBGridEh1/STFilter: TSTDBGridEhFilter]
+=
+Local="False"
+Visible="False"
+
+[DBGridEh1/SumList: TDBGridEhSumList]
+=
+Active="False"
+ExternalRecalc="False"
+VirtualRecords="False"
+
+[DBGridEh1/TitleFont: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[DBGridEh1/VertScrollBar: TVertDBGridEhScrollBar]
+=
+Tracking="False"
+Visible="True"
+VisibleMode="sbAutoShowEh"
+
+[GroupBox1: TcxPropertiesStoreComponent]
+=
+Align="alClient"
+Anchors="[akLeft,akTop,akRight,akBottom]"
+BiDiMode="bdLeftToRight"
+Caption="Посетители"
+Color=12632256
+Ctl3D="True"
+Cursor=0
+DockSite="False"
+DragCursor=-12
+DragKind="dkDrag"
+DragMode="dmManual"
+Enabled="True"
+Height=305
+HelpContext=0
+HelpKeyword=""
+HelpType="htContext"
+Hint=""
+Left=2
+Name="GroupBox1"
+ParentBackground="True"
+ParentBiDiMode="True"
+ParentColor="True"
+ParentCtl3D="True"
+ParentFont="False"
+ParentShowHint="True"
+PopupMenu=""
+ShowHint="False"
+TabOrder=0
+TabStop="False"
+Tag=0
+Top=2
+Visible="True"
+Width=642
+
+[GroupBox1/Constraints: TSizeConstraints]
+=
+MaxHeight=0
+MaxWidth=0
+MinHeight=0
+MinWidth=0
+
+[GroupBox1/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[GroupBox2: TcxPropertiesStoreComponent]
+=
+Align="alBottom"
+Anchors="[akLeft,akRight,akBottom]"
+BiDiMode="bdLeftToRight"
+Caption="Пропуски"
+Color=12632256
+Ctl3D="True"
+Cursor=0
+DockSite="False"
+DragCursor=-12
+DragKind="dkDrag"
+DragMode="dmManual"
+Enabled="True"
+Height=128
+HelpContext=0
+HelpKeyword=""
+HelpType="htContext"
+Hint=""
+Left=2
+Name="GroupBox2"
+ParentBackground="True"
+ParentBiDiMode="True"
+ParentColor="True"
+ParentCtl3D="True"
+ParentFont="False"
+ParentShowHint="True"
+PopupMenu=""
+ShowHint="False"
+TabOrder=1
+TabStop="False"
+Tag=0
+Top=310
+Visible="True"
+Width=642
+
+[GroupBox2/Constraints: TSizeConstraints]
+=
+MaxHeight=0
+MaxWidth=0
+MinHeight=0
+MinWidth=0
+
+[GroupBox2/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[fsBold]"
+
+[MainFrm: TcxPropertiesStoreComponent]
+=
+Action=""
+ActiveControl="DBGridEh1"
+Align="alNone"
+AlphaBlend="False"
+AlphaBlendValue=255
+Anchors="[akLeft,akTop]"
+AutoScroll="True"
+AutoSize="False"
+BiDiMode="bdLeftToRight"
+BorderIcons="[biSystemMenu,biMinimize,biMaximize]"
+BorderStyle="bsSizeable"
+BorderWidth=0
+Caption="Пропуск"
+ClientHeight=459
+ClientWidth=855
+Color=12632256
+Ctl3D="True"
+Cursor=0
+DefaultMonitor="dmActiveForm"
+DockSite="False"
+DragKind="dkDrag"
+DragMode="dmManual"
+Enabled="True"
+FormStyle="fsNormal"
+Height=486
+HelpContext=0
+HelpFile=""
+HelpKeyword=""
+HelpType="htContext"
+Hint=""
+KeyPreview="False"
+Left=117
+Menu=""
+Name="MainFrm"
+ObjectMenuItem=""
+OldCreateOrder="False"
+ParentBiDiMode="True"
+ParentFont="False"
+PixelsPerInch=96
+PopupMenu=""
+Position="poDesigned"
+PrintScale="poProportional"
+Scaled="True"
+ScreenSnap="False"
+ShowHint="False"
+SnapBuffer=10
+Tag=0
+Top=106
+TransparentColor="False"
+TransparentColorValue=0
+UseDockManager="False"
+Visible="False"
+Width=863
+WindowMenu=""
+WindowState="wsNormal"
+
+[MainFrm/Constraints: TSizeConstraints]
+=
+MaxHeight=0
+MaxWidth=0
+MinHeight=0
+MinWidth=0
+
+[MainFrm/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[MainFrm/HorzScrollBar: TControlScrollBar]
+=
+ButtonSize=0
+Color=-16777196
+Increment=8
+Margin=0
+ParentColor="True"
+Position=0
+Range=209
+Smooth="False"
+Size=0
+Style="ssRegular"
+ThumbSize=0
+Tracking="False"
+Visible="True"
+
+[MainFrm/Icon: TIcon]
+=
+
+[MainFrm/VertScrollBar: TControlScrollBar]
+=
+ButtonSize=0
+Color=-16777196
+Increment=8
+Margin=0
+ParentColor="True"
+Position=0
+Range=19
+Smooth="False"
+Size=0
+Style="ssRegular"
+ThumbSize=0
+Tracking="False"
+Visible="True"
+
+[N10: TcxPropertiesStoreComponent]
+=
+Action=""
+AutoCheck="False"
+AutoHotkeys="maParent"
+AutoLineReduction="maParent"
+Break="mbNone"
+Caption="Изменить"
+Checked="False"
+Default="False"
+Enabled="True"
+GroupIndex=0
+HelpContext=0
+Hint=""
+ImageIndex=-1
+Name="N10"
+RadioItem="False"
+ShortCut=0
+SubMenuImages=""
+Tag=0
+Visible="True"
+
+[N10/Bitmap: TBitmap]
+=
+
+[N12: TcxPropertiesStoreComponent]
+=
+Action=""
+AutoCheck="False"
+AutoHotkeys="maParent"
+AutoLineReduction="maParent"
+Break="mbNone"
+Caption="Добавить"
+Checked="False"
+Default="False"
+Enabled="True"
+GroupIndex=0
+HelpContext=0
+Hint=""
+ImageIndex=-1
+Name="N12"
+RadioItem="False"
+ShortCut=0
+SubMenuImages=""
+Tag=0
+Visible="True"
+
+[N12/Bitmap: TBitmap]
+=
+
+[N13: TcxPropertiesStoreComponent]
+=
+Action=""
+AutoCheck="False"
+AutoHotkeys="maParent"
+AutoLineReduction="maParent"
+Break="mbNone"
+Caption="Удалить"
+Checked="False"
+Default="False"
+Enabled="True"
+GroupIndex=0
+HelpContext=0
+Hint=""
+ImageIndex=-1
+Name="N13"
+RadioItem="False"
+ShortCut=0
+SubMenuImages=""
+Tag=0
+Visible="True"
+
+[N13/Bitmap: TBitmap]
+=
+
+[N14: TcxPropertiesStoreComponent]
+=
+Action=""
+AutoCheck="False"
+AutoHotkeys="maParent"
+AutoLineReduction="maParent"
+Break="mbNone"
+Caption="Изменить"
+Checked="False"
+Default="False"
+Enabled="True"
+GroupIndex=0
+HelpContext=0
+Hint=""
+ImageIndex=-1
+Name="N14"
+RadioItem="False"
+ShortCut=0
+SubMenuImages=""
+Tag=0
+Visible="True"
+
+[N14/Bitmap: TBitmap]
+=
+
+[N15: TcxPropertiesStoreComponent]
+=
+Action=""
+AutoCheck="False"
+AutoHotkeys="maParent"
+AutoLineReduction="maParent"
+Break="mbNone"
+Caption="Фильтр"
+Checked="False"
+Default="False"
+Enabled="True"
+GroupIndex=0
+HelpContext=0
+Hint=""
+ImageIndex=-1
+Name="N15"
+RadioItem="False"
+ShortCut=0
+SubMenuImages=""
+Tag=0
+Visible="True"
+
+[N15/Bitmap: TBitmap]
+=
+
+[N5: TcxPropertiesStoreComponent]
+=
+Action=""
+AutoCheck="False"
+AutoHotkeys="maParent"
+AutoLineReduction="maParent"
+Break="mbNone"
+Caption="Добавить"
+Checked="False"
+Default="False"
+Enabled="True"
+GroupIndex=0
+HelpContext=0
+Hint=""
+ImageIndex=-1
+Name="N5"
+RadioItem="False"
+ShortCut=0
+SubMenuImages=""
+Tag=0
+Visible="True"
+
+[N5/Bitmap: TBitmap]
+=
+
+[N6: TcxPropertiesStoreComponent]
+=
+Action=""
+AutoCheck="False"
+AutoHotkeys="maParent"
+AutoLineReduction="maParent"
+Break="mbNone"
+Caption="Удалить"
+Checked="False"
+Default="False"
+Enabled="True"
+GroupIndex=0
+HelpContext=0
+Hint=""
+ImageIndex=-1
+Name="N6"
+RadioItem="False"
+ShortCut=0
+SubMenuImages=""
+Tag=0
+Visible="True"
+
+[N6/Bitmap: TBitmap]
+=
+
+[N7: TcxPropertiesStoreComponent]
+=
+Action=""
+AutoCheck="False"
+AutoHotkeys="maParent"
+AutoLineReduction="maParent"
+Break="mbNone"
+Caption="Изменить"
+Checked="False"
+Default="False"
+Enabled="True"
+GroupIndex=0
+HelpContext=0
+Hint=""
+ImageIndex=-1
+Name="N7"
+RadioItem="False"
+ShortCut=0
+SubMenuImages=""
+Tag=0
+Visible="True"
+
+[N7/Bitmap: TBitmap]
+=
+
+[N8: TcxPropertiesStoreComponent]
+=
+Action=""
+AutoCheck="False"
+AutoHotkeys="maParent"
+AutoLineReduction="maParent"
+Break="mbNone"
+Caption="Добавить"
+Checked="False"
+Default="False"
+Enabled="True"
+GroupIndex=0
+HelpContext=0
+Hint=""
+ImageIndex=-1
+Name="N8"
+RadioItem="False"
+ShortCut=0
+SubMenuImages=""
+Tag=0
+Visible="True"
+
+[N8/Bitmap: TBitmap]
+=
+
+[N9: TcxPropertiesStoreComponent]
+=
+Action=""
+AutoCheck="False"
+AutoHotkeys="maParent"
+AutoLineReduction="maParent"
+Break="mbNone"
+Caption="Удалить"
+Checked="False"
+Default="False"
+Enabled="True"
+GroupIndex=0
+HelpContext=0
+Hint=""
+ImageIndex=-1
+Name="N9"
+RadioItem="False"
+ShortCut=0
+SubMenuImages=""
+Tag=0
+Visible="True"
+
+[N9/Bitmap: TBitmap]
+=
+
+[Panel1: TcxPropertiesStoreComponent]
+=
+Align="alLeft"
+Alignment="taCenter"
+Anchors="[akLeft,akTop,akBottom]"
+AutoSize="False"
+BevelInner="bvLowered"
+BevelOuter="bvRaised"
+BevelWidth=1
+BiDiMode="bdLeftToRight"
+BorderStyle="bsNone"
+BorderWidth=0
+Caption=""
+Color=12632256
+Ctl3D="True"
+Cursor=0
+DockSite="False"
+DragCursor=-12
+DragKind="dkDrag"
+DragMode="dmManual"
+Enabled="True"
+FullRepaint="True"
+Height=440
+HelpContext=0
+HelpKeyword=""
+HelpType="htContext"
+Hint=""
+Left=0
+Locked="False"
+Name="Panel1"
+ParentBackground="False"
+ParentBiDiMode="True"
+ParentColor="True"
+ParentCtl3D="True"
+ParentFont="True"
+ParentShowHint="True"
+PopupMenu=""
+ShowHint="False"
+TabOrder=0
+TabStop="False"
+Tag=0
+Top=0
+UseDockManager="True"
+Visible="True"
+Width=209
+
+[Panel1/Constraints: TSizeConstraints]
+=
+MaxHeight=0
+MaxWidth=0
+MinHeight=0
+MinWidth=0
+
+[Panel1/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[Panel2: TcxPropertiesStoreComponent]
+=
+Align="alClient"
+Alignment="taCenter"
+Anchors="[akLeft,akTop,akRight,akBottom]"
+AutoSize="False"
+BevelInner="bvLowered"
+BevelOuter="bvRaised"
+BevelWidth=1
+BiDiMode="bdLeftToRight"
+BorderStyle="bsNone"
+BorderWidth=0
+Caption=""
+Color=12632256
+Ctl3D="True"
+Cursor=0
+DockSite="False"
+DragCursor=-12
+DragKind="dkDrag"
+DragMode="dmManual"
+Enabled="True"
+FullRepaint="True"
+Height=440
+HelpContext=0
+HelpKeyword=""
+HelpType="htContext"
+Hint=""
+Left=209
+Locked="False"
+Name="Panel2"
+ParentBackground="False"
+ParentBiDiMode="True"
+ParentColor="True"
+ParentCtl3D="True"
+ParentFont="True"
+ParentShowHint="True"
+PopupMenu=""
+ShowHint="False"
+TabOrder=2
+TabStop="False"
+Tag=0
+Top=0
+UseDockManager="True"
+Visible="True"
+Width=646
+
+[Panel2/Constraints: TSizeConstraints]
+=
+MaxHeight=0
+MaxWidth=0
+MinHeight=0
+MinWidth=0
+
+[Panel2/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[person_menu: TcxPropertiesStoreComponent]
+=
+Alignment="paLeft"
+AutoHotkeys="maAutomatic"
+AutoLineReduction="maAutomatic"
+AutoPopup="True"
+BiDiMode="bdLeftToRight"
+HelpContext=0
+Images=""
+Items=""
+MenuAnimation="[]"
+Name="person_menu"
+OwnerDraw="False"
+ParentBiDiMode="True"
+Tag=0
+TrackButton="tbRightButton"
+
+[Splitter1: TcxPropertiesStoreComponent]
+=
+Align="alBottom"
+AutoSnap="True"
+Beveled="False"
+Color=12632256
+Cursor=-15
+Height=3
+HelpContext=0
+HelpKeyword=""
+HelpType="htContext"
+Hint=""
+Left=2
+MinSize=30
+Name="Splitter1"
+ParentColor="True"
+ResizeStyle="rsPattern"
+Tag=0
+Top=307
+Visible="True"
+Width=642
+
+[Splitter1/Constraints: TSizeConstraints]
+=
+MaxHeight=0
+MaxWidth=0
+MinHeight=0
+MinWidth=0
+
+[StatusBar1: TcxPropertiesStoreComponent]
+=
+Action=""
+Align="alBottom"
+Anchors="[akLeft,akRight,akBottom]"
+AutoHint="False"
+BiDiMode="bdLeftToRight"
+BorderWidth=0
+Color=12632256
+Cursor=0
+DragCursor=-12
+DragKind="dkDrag"
+DragMode="dmManual"
+Enabled="True"
+Height=19
+HelpContext=0
+HelpKeyword=""
+HelpType="htContext"
+Hint=""
+Left=0
+Name="StatusBar1"
+ParentBiDiMode="True"
+ParentColor="True"
+ParentFont="False"
+ParentShowHint="True"
+PopupMenu=""
+ShowHint="False"
+SimplePanel="True"
+SimpleText=""
+SizeGrip="True"
+Tag=0
+Top=440
+UseSystemFont="True"
+Visible="True"
+Width=855
+
+[StatusBar1/Constraints: TSizeConstraints]
+=
+MaxHeight=0
+MaxWidth=0
+MinHeight=0
+MinWidth=0
+
+[StatusBar1/Font: TFont]
+=
+Charset=204
+Color=-16777198
+Height=-11
+Name="Tahoma"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[StatusBar1/Panels: TStatusPanels]
+=
+
+[TreeView1: TcxPropertiesStoreComponent]
+=
+Align="alClient"
+Anchors="[akLeft,akTop,akRight,akBottom]"
+AutoExpand="False"
+BevelEdges="[beLeft,beTop,beRight,beBottom]"
+BevelInner="bvLowered"
+BevelKind="bkNone"
+BevelOuter="bvLowered"
+BevelWidth=1
+BiDiMode="bdLeftToRight"
+BorderStyle="bsSingle"
+BorderWidth=0
+ChangeDelay=0
+Color=16777215
+Ctl3D="True"
+Cursor=0
+DragCursor=-12
+DragKind="dkDrag"
+DragMode="dmManual"
+Enabled="True"
+Height=436
+HelpContext=0
+HelpKeyword=""
+HelpType="htContext"
+HideSelection="True"
+Hint=""
+HotTrack="False"
+Images=""
+Indent=19
+Left=2
+MultiSelect="False"
+MultiSelectStyle="[msControlSelect]"
+Name="TreeView1"
+ParentBiDiMode="True"
+ParentColor="False"
+ParentCtl3D="True"
+ParentFont="True"
+ParentShowHint="True"
+PopupMenu="catalog_menu"
+ReadOnly="True"
+RightClickSelect="False"
+RowSelect="False"
+ShowButtons="True"
+ShowHint="False"
+ShowLines="True"
+ShowRoot="True"
+SortType="stNone"
+StateImages=""
+TabOrder=0
+TabStop="True"
+Tag=0
+ToolTips="True"
+Top=2
+Visible="True"
+Width=205
+
+[TreeView1/Constraints: TSizeConstraints]
+=
+MaxHeight=0
+MaxWidth=0
+MinHeight=0
+MinWidth=0
+
+[TreeView1/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="MS Sans Serif"
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[TreeView1/Items: TTreeNodes]
+=
+

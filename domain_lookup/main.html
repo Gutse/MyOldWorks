@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <!--
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    -->
+    <meta name="description" content="KosGRES info">
+    <meta name="author" content="KrasavinDY">
+    <link rel="icon" href="/favicon.ico">
+    <link href="/css/main.css" rel="stylesheet">
+    
+    
+    <link href="/css/normalize.css" rel="stylesheet">
+    
+
+    <title>KosGRES info</title>
+  </head>
+  <body>
+      <header>
+        <!--
+        <ul class="main-menu">
+          <li class="main-menu-item">Поиск пользователя</li>
+          <li class="main-menu-item">заготовка</li>
+          <li class="main-menu-item">заготовка
+              <ul class="main-sub-menu">
+                 <li class="main-menu-sub-item">заготовка</li>
+                 <li class="main-menu-sub-item">заготовка</li>
+              </ul>
+          </li>
+        </ul> 
+        
+      </header>
+      -->
+      <main>
+        
+        <div class="sidebar">
+          <ul class="sidebar-list">
+            <li class="sidebar-item" id="user_search">Поиск пользователя</li>      
+            <li class="sidebar-item" id="pc_search">Поиск по ПК</li>      
+            <li class="sidebar-item">заготовка</li>      
+            <li class="sidebar-item">заготовка</li>      
+          </ul>  
+        </div>
+        <div class="mainbar" id="mainbar">
+          <div id ="user_search_bar" class="mainbar_content">
+            <div class="user_search_bar_options">
+                <label>
+                    <b>Поиск ПК пользователя по имени/логину/телефону/почте:</b>
+                    <br>
+                    <!--<form class="user_search_bar_form" onsubmit="search_user(this)">-->
+                      <input id = "username" type="text" autofocus name="username" onkeypress="onenterrun(search_user, event)">
+                      <!--<input type="submit" value = "искать">-->
+                      <button onclick="search_user(this)">искать</button> 
+                    <!--</form>-->
+                </label>
+            </div>  
+            <div id = "user_search_bar_result" class="user_search_bar_result">
+            </div>  
+          </div>
+
+          <div id ="pc_search_bar" class="mainbar_content">
+            <div class="user_search_bar_options">
+                <label>
+                    <b>Поиск пользователя по ПК:</b>
+                    <br>
+                    <!--<form class="user_search_bar_form" onsubmit="search_user(this)">-->
+                      <input id = "pcname" type="text" autofocus name="pcname" onkeypress="onenterrun(search_pc, event)">
+                      <!--<input type="submit" value = "искать">-->
+                      <button onclick="search_pc(this)">искать</button> 
+                    <!--</form>-->
+                </label>
+            </div>  
+            <div id = "pc_search_bar_result" class="user_search_bar_result">
+            </div>  
+          </div>
+
+        </div>  
+      </main>
+      <footer>
+        <span>2014 © Krasavin DY</span>
+      </footer>
+      <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+on *:NOTICE:*Идентифицируйтесь командой*:*: /msg Arena !ident your_arena_pass
+on 1:JOIN:#arena: if ($nick == $me) /dll D:\path_to_dll\arena.dll Init D:\Dia\OwnProjects\mirc_dll
+on 1:PART:#arena: if ($nick == $me) /dll -u D:\path_to_dll\arena.dll 
+on *:mode:#arena: if (($nick == Arena) && (-m isin $1-)) { /msg #arena !reg | /dll D:\path_to_dll\arena.dll NewFight }
+on 1:TEXT:*:#arena:  if (($me isvoice #arena) && ($nick == arena))  { /dll D:\path_to_dll\arena.dll MakeOrder $strip($1-) }
+
+
